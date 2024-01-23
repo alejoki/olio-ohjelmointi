@@ -10,14 +10,12 @@ void Game::printGameResult()
 Game::Game(int maxNumber) : maxNumber(maxNumber)
 {
     cout << "GAME CONSTRUCTOR: object initialized with " << maxNumber << " as a maxium value" << endl;
-    // You can add more initialization logic here if needed
 }
 Game::~Game()
 {
     cout << "GAME CONSTRUCTOR: object cleared from stack memory" << endl;
 }
 
-// Member function to play the game
 void Game::play()
 {
     // Add the game logic here
