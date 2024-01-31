@@ -7,8 +7,9 @@ void Game::printGameResult()
     cout << "You guessed the right answer = " << randomNumber << " with "<< numOfGuesses <<" guesses" << endl;
 }
 
-Game::Game(int maxNumber) : maxNumber(maxNumber)
+Game::Game(int maxNum)
 {
+    maxNumber = maxNum;
     cout << "GAME CONSTRUCTOR: object initialized with " << maxNumber << " as a maxium value" << endl;
 }
 Game::~Game()

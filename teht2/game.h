@@ -9,7 +9,7 @@ private:
     int numOfGuesses;
     void printGameResult();
 public:
-    Game(int maxNumber);
+    Game(int);
     ~Game();
     void play();
 };
